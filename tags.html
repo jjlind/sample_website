@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
 
-  <STYLE>A {text-decoration: none; color: #0b07f7;} </STYLE>
+  <STYLE>A {text-decoration: none; color:blue;} </STYLE>
   <body>
     <div style="text-align: right;">
         <a href="index.html">Home</a>
@@ -33,81 +33,114 @@
 
     <h2>Document tags</h2>
 
-        <table>
+        <table style="padding: 0 20px;">
             <tr>
                 <th>Tag</th>
                 <th>Name</th>
                 <th>Purpose</th>
             </tr>
             <tr>
-                <td padding: 10px;><code>html</code></td>
-                <td padding: 10px;>Hyper Text Markup Language</td>
+                <td><code>html</code></td>
+                <td>Hyper Text Markup Language</td>
                 <td>Enclose document tags and contents</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>head</code></td>
-                <td padding: 10px;>Head</td>
+                <td><code>head</code></td>
+                <td>Head</td>
                 <td>Enclose overall document properties such as title and language</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>title</code></td>
-                <td padding: 10px;>Document Title</td>
+                <td><code>title</code></td>
+                <td>Document Title</td>
                 <td>Defines the title, which is displayed in the browser window or tab</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>meta</code></td>
-                <td padding: 10px;>Meta</td>
+                <td><code>meta</code></td>
+                <td>Meta</td>
                 <td>Defines document meta data such as language</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>body</code></td>
-                <td padding: 10px;>Body</td>
+                <td><code>body</code></td>
+                <td>Body</td>
                 <td>Enclose the actual document text</td>
             </tr>
         </table>
 
     <h2>Block Elements</h2>
 
-        <table>
+        <table style="padding: 5px 20px;">
             <tr>
                 <th>Tag</th>
                 <th>Name</th>
                 <th>Purpose</th>
             </tr>
             <tr>
-                <td padding: 10px;><code>h1</code>&ndash;<code>h6</code></td>
-                <td padding: 10px;>Headings</td>
-                <td>include a heading (levels 1&ndash;6)</td>
+                <td><code>h1</code>&ndash;<code>h6</code></td>
+                <td>Headings</td>
+                <td>Include a heading (levels 1&ndash;6)</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>p</code></td>
-                <td padding: 10px;>Paragraph</td>
-                <td>include a paragraph of text</td>
+                <td><code>p</code></td>
+                <td>Paragraph</td>
+                <td>Include a paragraph of text</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>table</code></td>
-                <td padding: 10px;>Table</td>
-                <td>include a table</td>
+                <td><code>table</code></td>
+                <td>Table</td>
+                <td>Include a table</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>tr</code></td>
-                <td padding: 10px;>Table row</td>
-                <td>include a row of data</td>
+                <td><code>tr</code></td>
+                <td>Table row</td>
+                <td>Include a row of data</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>th</code></td>
-                <td padding: 10px;>Table header</td>
-                <td>make a table header</td>
+                <td><code>th</code></td>
+                <td>Table header</td>
+                <td>Make a table header</td>
             </tr>
             <tr>
-                <td padding: 10px;><code>td</code></td>
-                <td padding: 10px;>Table data</td>
-                <td>include a table data cell</td>
+                <td><code>td</code></td>
+                <td>Table data</td>
+                <td>Include a table data cell</td>
+            </tr>
+                <td><code>div</code></td>
+                <td>Division</td>
+                <td>Define block-level section in document</td>
+            <tr>
+                <td><code>header</code></td>
+                <td>Header</td>
+                <td>Label the page header</td>
+            </tr>
+            <tr>
+                <td><code>ol</code></td>
+                <td>Ordered list</td>
+                <td>List elements in numerical order</td>
+            </tr>
+            <tr>
+                <td><code>ul</code></td>
+                <td>Unordered list</td>
+                <td>List elements whose order doesn't matter</td>
+            </tr>
+            <tr>
+                <td><code>li</code></td>
+                <td>List item</td>
+                <td>Include a list item (ordered or unordered</td>
+            </tr>
+            <tr>
+                <td><code>blockquote</code></td>
+                <td>Block quotation</td>
+                <td>Show formatted quotation</td>
+            </tr>
+            <tr>
+                <td><code>br</code></td>
+                <td>Break</td>
+                <td>Enter line break</td>
             </tr>
         </table>
 
     <h2>Inline Elements</h2>
-        <table>
+        <table style="padding: 5px 20px;">
             <tr>
                 <th>Tag</th>
                 <th>Name</th>
@@ -116,45 +149,52 @@
                 <th>Result</th>
             </tr>
             <tr>
-                <td padding: 10px;><code>em</code></td>
-                <td padding: 10px;>Emphasized</td>
-                <td>make emphasized text</td>
+                <td><code>em</code></td>
+                <td>Emphasized</td>
+                <td>Make emphasized text</td>
                 <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
                 <td><em>technical sophistication</em></td>
             </tr>
             <tr>
-                <td padding: 10px;><code>strong</code></td>
-                <td padding: 10px;>Strong</td>
-                <td>make strong text</td>
+                <td><code>strong</code></td>
+                <td>Strong</td>
+                <td>Make strong text</td>
                 <td>
                     <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
                 </td>
                 <td><strong>at least a billion people</strong></td>
             </tr>
             <tr>
-                <td padding: 10px;><code>a</code></td>
-                <td padding: 10px;>anchor</td>
-                <td>make hyperlink</td>
+                <td><code>a</code></td>
+                <td>Anchor</td>
+                <td>Make hyperlink</td>
                 <td>
                     <code>&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;</code>
                 </td>
                 <td><a href="https://learnenough.com/">Learn Enough</a></td>
             </tr>
             <tr>
-                <td padding: 10px;><code>img</code></td>
-                <td padding: 10px;>image</td>
-                <td>include an image</td>
+                <td><code>img</code></td>
+                <td>Image</td>
+                <td>Include an image</td>
                 <td>
                     <code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code>
                 </td>
                 <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
             </tr>
             <tr>
-                <td padding: 10px;><code>code</code></td>
-                <td padding: 10px;>monospace</td>
-                <td>make monospaced text</td>
+                <td><code>code</code></td>
+                <td>Monospaced code</td>
+                <td>Insert monospaced source code</td>
                 <td><xmp><code>monospaced code</code></xmp></td>
                 <td><code>monospaced code</code></td>
+            </tr>
+            <tr>
+                <td><code>span</code></td>
+                <td>Span</td>
+                <td>Define inline section in document</td>
+                <td><code>&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code></td>
+                <td> </td>
             </tr>
         </table>
   </body>
